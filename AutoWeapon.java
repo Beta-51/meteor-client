@@ -44,7 +44,7 @@ public class AutoWeapon extends Module {
     );
 
     private final Setting<Boolean> switchSecondary = sgGeneral.add(new BoolSetting.Builder()
-        .name("switch to secondary weapon on one-hit")
+        .name("secondary weapon")
         .description("Switches to secondary weapon when the victim's health goes below the desired number")
         .defaultValue(false)
         .build()
